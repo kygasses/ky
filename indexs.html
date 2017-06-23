@@ -1,0 +1,214 @@
+
+
+
+
+<!DOCTYPE html>
+<html> <script type="text/javascript">
+  	function addLoadEvent(func) {
+  		var oldonload = window.onload;
+  		return typeof window.onload != 'function' ? window.onload = func : window.onload = function () { oldonload(); func(); };
+  	}
+
+  	function $(id) {
+  		return typeof id === 'string' ? document.getElementById(id) : id;
+  	}
+
+  	function Tab() {
+  		var aLi = $('tabs').getElementsByTagName('li');
+  		var oUl = $('right').getElementsByTagName('div');
+  		if(aLi.length != oUl.length) { alert(aLi.length); return false; }
+  		for( var i=0; i<aLi.length; i++) {
+  			aLi[i].index = i;
+  			aLi[0].className = 'active';
+  			oUl[0].style.display = 'block';
+  			aLi[i].onmouseover = function() {
+  				for(var j=0; j<aLi.length; j++) {
+  					aLi[j].className = '';
+  					oUl[j].style.display = 'none';
+  				}
+  				aLi[this.index].className = 'active';
+  				oUl[this.index].style.display = 'block';
+  			}
+  		}
+  	}
+
+  	addLoadEvent(Tab);
+  </script>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>科源眼镜有限公司</title>
+        <link rel="stylesheet" href="all.css" type="text/css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <div id="logo">
+                   
+                </div>
+                <div id="menu">
+                    <ul>
+                        <li>
+                            <a href="#">关于我们</a>
+                        </li>
+                        <li class="menuLine"></li>
+                        <li>
+                            <a href="#">公告</a>
+                        </li>
+                        <li class="menuLine"></li>
+                        <li>
+                            <a href="">反馈</a>
+                        </li>
+                        <li class="menuLine"></li>
+                        <li>
+                            <a href="#">新闻</a>
+                        </li>
+                        <li class="menuLine"></li>
+                        <li>
+                            <a href="#">联系</a>
+                        </li>
+                       
+                    </ul>
+                </div>
+            </div>
+            <div id="navigator">
+               <ul id="tabs"><a href="keyuan.html"><li > 首页</li></a><a href="#"><li >工作环境</li></a><a href="#"><li>招聘信息</li></a><a href="#"><li>产品</li></a></ul>
+            </div>
+            <div id="pagebody">
+                <div id="left">
+                    
+                    <div id="info">
+                        <p><b>联系人：</b>郝建设</p>
+                        <p><b>电话：</b>13714158610</p>
+                        <p><b>邮箱：</b>keyuanglasses@126.com</p>
+                        <p><b>公司地址：<br/></b>深圳市横岗镇大康村富民路6号</p>
+                       
+                    </div>
+                    <div id="user_state">
+                        
+                    </div>
+                </div>
+                <div id="right">
+                <!--m1-->
+                    <div class="ts">
+                    
+                    
+           <table><tr><td style=" text-align:left; font-size:15px">科源眼镜有限公司创办于2009年，是专业制造、设计、销售、加工生产的眼镜企业。 公司座落于中国深圳市横岗镇大康村富民路，厂房面积600方米，现拥有50-70员工人，其中眼镜专业技术及管理人员1５人。设计研制的金属眼镜及塑胶框配件达80多种款式，能满足高、中、低档厂商的各种要求。多年来，本公司以精湛的技艺生产的配件，赢得了国内外用户的信赖，树立了良好的商业信誉。   本公司将以超前的眼光，不断开拓、创新为国内外用户提供一流的眼镜产品。 </td><td><img width="400" height="250" src="gc2.jpg"></td>
+                    </tr>
+                    
+                    </table>
+                    </div>
+                     <!--m1-->
+                     
+                     
+                      <!--m2-->
+                    <div  class="ts"   >我们的车间保持清洁卫生，设备齐全，工作氛围十分轻松愉快,
+                    <br/>
+                 <table style=" margin-top:20px">  <tr> <td><img src="sccj.jpg" height="200" width="300"></td>
+                  <td>  <img src="sccj1.jpg" height="200" width="300"></td></tr>
+                    </table>
+                    
+                    
+                    
+                    
+                    </div>
+                     <!--m2-->
+                    
+                    
+                      <!--m3-->
+                    <div class="ts" id="cpp" ><p  style=" margin-top:50px;"><h3>诚聘</h3>
+                    <br/>
+                <p><b>包装执架熟手</b>（3年以上工作经验）&nbsp; &nbsp;2名</p>
+                        <p><b>精雕师傅</b>（3年以上工作经验）&nbsp; &nbsp;1名</p>
+                        <p><b>打磨QC</b>（1年以上工作经验）&nbsp; &nbsp;3名</p>
+                        <p><b>钛焊技工</b>（2年以上工作经验）&nbsp; &nbsp;2名</p>
+                          <p><b>男女普工&nbsp; &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp;   &nbsp; &nbsp;</b>多名</p>
+                          <p>普工月薪2100元（按26天计算）加班费12元1小时；全勤奖励60元，必须<br/>身体健康，男性纹身、长发不面试，有意者带相关证件到本公司一楼面试</p>
+                         <p> 联系电话：<b>13590449317</b></p>
+                    <p> 联系人：<b>吴小姐</b></p>
+                    </p>
+                    </div>
+                     <!--m3-->
+                    
+                    
+                    
+                      <!--m4-->
+                    <div class="ts" >
+                  <table>  <tr><td>
+                    <table  >
+                    <tr>
+                   
+                      <tr><td><img src="yj7.jpg" width="150" height="150"></td><td><img src="vpyj.jpg" width="150"></td></tr>
+                      <tr><th colspan="2">品牌眼镜</th></tr>
+                    	
+                        
+                    </tr>
+                    
+                  
+                        </table>
+                  </td>
+                  
+                  <td>
+                    <table  >
+                    <tr>
+                   
+                      <tr><td><img src="jjyj.jpg" width="150" height="150"></td><td><img src="jjyj2.jpg" width="150"></td></tr>
+                      <tr><th colspan="2">胶架</th></tr>
+                    	
+                        
+                    </tr>
+                    
+                  
+                        </table>
+                  </td>
+                  
+                  </tr>
+                    <tr><td>
+                    <table  >
+                    <tr>
+                   
+                      <tr><td><img src="yj4.jpg" width="150" height="150"></td><td><img src="yj5.jpg" width="150"></td></tr>
+                      <tr><th colspan="2">金属架</th></tr>
+                    	
+                        
+                    </tr>
+                    
+                  
+                        </table>
+                  </td>
+                  
+                  <td>
+                    <table  >
+                    <tr>
+                   
+                      <tr><td><img src="jp.jpg" width="150" height="150"></td><td><img src="yjlj.jpg" width="150"  height="150"></td></tr>
+                      <tr><th  colspan="2"> 眼镜配件</th></tr>
+                    	
+                        
+                    </tr>
+                    
+                  
+                        </table>
+                  </td>
+                  
+                  </tr>
+                    </table>
+                    
+                    
+                    </div>
+                     <!--m4-->
+                     
+                     
+                   
+                    
+                    
+                </div>
+               <br class="clear"/>          
+            </div>
+                <div id="footer">
+                    copyright & copy; 2008-2015 BIGC YSL, ALL Rights Reserved<br/>
+                    BIGC YSL 版权所有<br/>
+         
+                </div>
+        </div>
+    </body>
+</html>
